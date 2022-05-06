@@ -11,7 +11,7 @@ function Header() {
               width={100}
               height={40}
               objectfit="contain"
-              className="cursor-pointer" />
+              className="cursor-pointer" alt="amazon" />
           </div>
           {/* seasrchbar */}
           <div className="hidden sm:flex items-center rounded-md bg-yellow-400 flex-grow h-26 cursor-pointer hover:bg-yellow-500">
@@ -42,7 +42,7 @@ function Header() {
           </p>
           <p className="link">prime video</p>
           <p className="link">Amazon Business</p>
-          <p className="link">Today Deal's</p>
+          <p className="link">Today Deals</p>
           <p className="hidden md:inline">Electronics</p>
       </div>
   </header>;

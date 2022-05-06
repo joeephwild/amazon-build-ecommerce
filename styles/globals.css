@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer components {
+
+
     header{
         @apply bg-[#000];
     }
@@ -14,4 +15,3 @@
     .button{
         @apply bg-yellow-400 rounded-sm focus:outline-none active:from-yellow-500 focus:ring-2 focus:ring-yellow-500 hover:bg-yellow-500 border-yellow-300 text-xs p-2 ;
     }  
-}
